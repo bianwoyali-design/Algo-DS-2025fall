@@ -9,7 +9,7 @@ long long min_Heap(long long arr[], long long n)
     priority_queue<long long, vector<long long>, greater<long long>> minHeap;
     for (int i = 0; i < n; i++)
     {
-            minHeap.push(arr[i]);
+        minHeap.push(arr[i]);
     }
     long long totalCost = 0;
     while (minHeap.size() > 1)
